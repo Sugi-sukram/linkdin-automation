@@ -1,0 +1,16 @@
+*{
+  font-size: 16px;
+}
+
+.App {
+  display: flex;
+}
+
+/* appcolor */
+
+
+.content {
+  flex-grow: 1;
+  padding: 20px;
+}
+

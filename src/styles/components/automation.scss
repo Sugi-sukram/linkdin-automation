@@ -1,0 +1,33 @@
+@import "../variables";
+
+.automation-reactflow {
+  height: calc(100vh - 100px);
+  width: calc(100% - 40px);
+  
+  /* padding: 20px; */
+  margin: 20px;
+}
+
+.wrapper-reactflow {
+  background-color: $color-secondary;
+  
+  color: black;
+  border: 1px solid $color-dark-1;
+  height: 100%;
+  width: 100%;
+}
+.automation-reactflow-header {
+  height: 40px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid $color-dark-1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .reactflow-header-child{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+}

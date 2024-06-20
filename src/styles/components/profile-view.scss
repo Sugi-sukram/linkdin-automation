@@ -1,0 +1,29 @@
+@import '../variables';
+.profile-component {
+  // border: 1px solid black;
+  border-radius: 3px;
+  padding: 5px;
+  margin: 5px;
+  background-color: $color-light;
+  height: 50px;
+  width: 350px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  .profile-view-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+    border-bottom: 1px solid $color-dark-2;
+    height: 30px;
+  }
+
+  .profile-view {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+
+
+  }
+  
+}

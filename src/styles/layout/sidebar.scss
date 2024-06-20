@@ -1,0 +1,42 @@
+@import '../variables';
+
+.side-nav {
+    width: calc(250px - 40px);
+    height: calc(100vh - 40px);
+    background-color: $color-primary;
+    color:  $color-light;
+    padding: 20px;
+  }
+  
+  .nav-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .nav-item {
+    margin: 10px 0;
+  }
+  
+  .nav-link {
+    cursor: pointer;
+    padding: 10px;
+    text-decoration: none;
+    color:  $color-light;
+    display: flex;
+    align-items: center;
+    gap: 8px; 
+
+    p{
+        margin: 0;
+    }
+  }
+  
+  .sub-nav-list {
+
+    
+  }
+  
+  .sub-nav-item {
+    margin: 5px 0;
+  }
+  

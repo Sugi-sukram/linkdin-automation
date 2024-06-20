@@ -1,0 +1,61 @@
+@import '../variables';
+
+.layout-component {
+    width: 100%;
+    display: flex;
+    background-color:  $color-light;
+
+    .sidebar {
+        // position: fixed;
+        width: 250px;
+        z-index: 10;
+        // top: 80px;
+        transition: transform 0.3s ease-in-out;
+    }
+
+
+
+    .sidebar-hidden {
+        transform: translateX(-115%);
+    }
+
+    .header {
+        position: fixed;
+        // left: 300px;
+        z-index: 10;
+    }
+
+    .layout-center {
+        width: 100%;
+        // margin-top: 80px;
+        // overflow-y: auto;
+        margin-left: 0px;
+        transition: margin-left 0.3s ease-in-out;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+
+    }
+
+    .layout-center-sidebar-open {
+        // margin-left: 260px;
+        transition: margin-left 0.3s ease-in-out;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .layout-component .sidebar {
+        width: 75px;
+    }
+
+    .layout-center {
+        width: 100%;
+        margin-top: 80px;
+        margin-left: 80px;
+        overflow-y: auto;
+
+    }
+
+    .layout-component .layout-center-sidebar-open {
+        margin-left: 80px;
+        transition: margin-left 0.3s ease-in-out;
+    }
+}

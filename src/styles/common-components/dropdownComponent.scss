@@ -1,0 +1,15 @@
+.wrap-dd{
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        pointer-events: all;
+        .default-select{
+            position: relative;
+            z-index: 10000;
+            min-width: 100px;
+
+            // input{
+            //     width: 75px !important;
+            // }
+        }
+    }
